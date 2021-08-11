@@ -1,0 +1,15 @@
+{
+  "name": "atividades-10.08",
+  "version": "1.0.0",
+  "description": "aula-pratica-formularios",
+  "main": "index.html",
+  "scripts": {
+  },
+  "keywords": [
+    "aula",
+    "de",
+    "formularios"
+  ],
+  "author": "Celio Henrique",
+  "license": "ISC"
+}

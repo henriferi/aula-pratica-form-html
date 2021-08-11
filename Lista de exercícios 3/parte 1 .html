@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3 parte 1</title>
+    <style>
+        .fundo-azul {
+            background-color: rgb(186, 212, 212);
+        }
+        .negrito {
+            font-weight: bold;
+    </style>
+</head>
+<body>
+    <h3>Manutenção do Órgão Colegiado</h3>
+    <table border="1">
+        <tr>
+            <td class="fundo-azul" style="font-weight: bold;">Unidade</td>
+            <td>FACULDADE DE ENGENHARIA DE ILHA SOLTEIRA</td>
+        </tr>
+        <tr>
+            <td class="fundo-azul" style="font-weight: bold;">Tipo Colegiado</td>
+            <td>CONGREGAÇÃO </td>
+        </tr>
+    </table>
+    <h1 class="fundo-azul"> Órgão Colegiado</h1>
+    <table style="display: inline-block;">
+        <fieldset>
+            <label class="negrito" for="nome">Nome</label>
+            <input style="width: 500px;" type="text" id="nome" name="nome" placeholder="CONGREÇÃO DA FACULDADE DE ILHA SOLTEIRA">
+            <br><br>
+            <label class="negrito" for="sigla">Sigla</label>
+            <input type="text" id="sigla" name="sigla" placeholder="CFIS">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label class="negrito" for="status">Status</label>
+            <select>
+                <option>Ativado</option>
+            </select>
+            <br><br>
+            <label class="negrito" for="data-ativacao">Data Ativação</label>
+            <input type="date" id="data" name="data">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label class="negrito" for="data-desativacao">Data Desativação</label>
+            <input type="date" id="datadesativacao" name="data">
+            <br><br>
+            <label class="negrito" for="orgao-de-origem">Órgão de Origem</label>
+            <input style="width: 500px;" type="text" id="orgaodeorigem" name="orgao-de-origem">
+            <input type="submit" value="buscar"><br><br>
+            <label class="negrito" for="orgao-superior">Órgão Superior</label>
+            <input style="width: 500px;" type="text" id="orgaosuperior">
+            <input type="submit" value="Buscar">
+            <br><br>
+            <label class="negrito" for="documentacao">Documentação</label>
+            <textarea rows="5" cols="50" placeholder="Órgão criado com o objetivo de aprovar normas da unidade."></textarea>
+            <br><br><br><br>
+            <input type="submit" value="Salvar">
+            <input class="sub" type="submit" value="Excluir">
+        </fieldset>
+    </table>
+</body>
+</html>
